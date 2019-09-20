@@ -25,13 +25,26 @@ In this project you will create a login page and request a token from the server
 - [Color-Hex](https://www.color-hex.com/)
 
 ## Self-Study/Essay Questions
-
+ 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+A token is used to authenticate the user of an app.  A user puts in his/her credentials and if they are correct a token is generated.  That token is then used throughout that user’s time on the app to allow them to access private routes that their token grants them access to.
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+One simple way we can keep our data secure in our web apps on the front end is to implement JWTs or JSON web tokens.  As explained above, this token is used throughout the user’s time on the website after they put in correct credentials and grants them access to pages blocked by private routes.  Other steps you can take are to keep your software updated, build layers of security around your website, use strong passwords and make admin directories tough to find. 
+
 - [ ] Describe how web servers work.
+
+A web server can mean two things:
+It can be a computer that stores the code for a website, or it can be the program that runs on the computer on which it is being stored.  Traditional web servers are generally computers that are always running and always connected to the internet so that if someone is trying to access the web application on the internet they will be able to do so.
+
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+The HTTP methods that make up the CRUD acronym are Create, Read, Update, and Delete.  Create is taken care of by the POST method, Read is taken care of by the GET method, Update is taken care of by the PUT method, and delete is taken care of by the DELETE method. 
 
 
 ## Project Set Up
